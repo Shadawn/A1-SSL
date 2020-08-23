@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="6e71f5b3-3c19-4bf1-9abd-55cc05286d47">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОПользователях" category="Record">
+				<xr:TypeId>80bb980f-200f-4905-a050-73c3b1215eb2</xr:TypeId>
+				<xr:ValueId>35aa2a0f-c40a-49d7-a4f7-0a57b81d3a57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОПользователях" category="Manager">
+				<xr:TypeId>9fb37e42-6bd2-4114-ad60-d837f50c18fd</xr:TypeId>
+				<xr:ValueId>5c7288d2-3606-4b75-bd32-64934d5c0912</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОПользователях" category="Selection">
+				<xr:TypeId>8983406f-da3d-4930-aaa1-505f68a40ac5</xr:TypeId>
+				<xr:ValueId>065e19aa-5739-456b-97cb-fbf3cd577fe8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОПользователях" category="List">
+				<xr:TypeId>84e6169c-2e47-4053-bb92-790fe49678a1</xr:TypeId>
+				<xr:ValueId>9c5bac9f-2837-4f12-8777-869893d9bbfc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОПользователях" category="RecordSet">
+				<xr:TypeId>c5be5e4d-d3b5-45e7-93b8-86ed30780bae</xr:TypeId>
+				<xr:ValueId>487ef397-545b-4569-8d4e-b28f8b35da5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОПользователях" category="RecordKey">
+				<xr:TypeId>4b30e8c0-eedc-4b9e-8ea1-5ffd9c29bf11</xr:TypeId>
+				<xr:ValueId>21e59b61-82d1-4096-b016-6663cd83e1e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОПользователях" category="RecordManager">
+				<xr:TypeId>070059e3-b5a0-4a42-aa49-9f82b6401004</xr:TypeId>
+				<xr:ValueId>fb60be3f-b928-45d8-bf89-500ea2f93de1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СведенияОПользователях</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3fdac6c6-06a6-4335-aee5-61b7d16e582f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПотребоватьСменуПароляПриВходе</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="27fefd55-2d24-462b-a1a3-04b9fb755eb9">
+				<InternalInfo/>
+				<Properties>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

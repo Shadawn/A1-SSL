@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="867ba0db-c243-40c0-acdb-2aab97c596a0">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьДополнительныеРеквизитыИСведения" category="Manager">
+				<xr:TypeId>a49538d8-03b5-4639-bf28-ffdf1303252f</xr:TypeId>
+				<xr:ValueId>60059401-f018-4a6d-bfd9-6c0cd0493197</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения" category="ValueManager">
+				<xr:TypeId>b8912884-bd0e-4799-af03-976ec6d4da7d</xr:TypeId>
+				<xr:ValueId>6b1cae7b-23e3-47c1-a1c5-4e671fb1ecfd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьДополнительныеРеквизитыИСведения" category="ValueKey">
+				<xr:TypeId>6ffd41c5-7453-4e4f-8a01-1a2a44427100</xr:TypeId>
+				<xr:ValueId>5c68b305-811e-454d-b931-d108daee65b3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьДополнительныеРеквизитыИСведения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>65a331c0-7501-49f6-8027-35b703d11834</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
