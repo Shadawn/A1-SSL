@@ -192,7 +192,7 @@
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+										<xr:Ref>0:f2267ecf-982d-4550-9efd-abc1ea79d6a1</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
@@ -253,7 +253,7 @@
 									<ChildItems>
 										<PictureDecoration name="БыстрыйДоступШапкаКартинка" id="377">
 											<Picture>
-												<xr:Ref>CommonPicture.БыстрыйДоступ</xr:Ref>
+												<xr:Ref>0:99c8acb8-96d6-42f9-bb59-8d1ff96a8ec9</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
@@ -263,7 +263,7 @@
 										<LabelDecoration name="БыстрыйДоступШапкаНадпись" id="380">
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>1</Height>
-											<TextColor>style:ГруппаВариантовОтчетовЦвет</TextColor>
+											<TextColor>0:bcd62c95-76fa-4543-b7bf-d5c704c51ba4</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -301,7 +301,7 @@
 										<LabelDecoration name="БыстрыйДоступПодсказкаКогдаНеНастроен" id="369">
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<SkipOnInput>true</SkipOnInput>
-											<TextColor>style:ПоясняющийТекст</TextColor>
+											<TextColor>0:252476c6-36b6-4313-b930-74a8f6bace23</TextColor>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -473,7 +473,7 @@
 								<LabelDecoration name="СмТакжеЗаголовок" id="428">
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<SkipOnInput>true</SkipOnInput>
-									<TextColor>style:ГруппаВариантовОтчетовЦвет</TextColor>
+									<TextColor>0:bcd62c95-76fa-4543-b7bf-d5c704c51ba4</TextColor>
 									<Font ref="style:NormalTextFont" height="0" kind="StyleItem"/>
 									<Title formatted="false">
 										<v8:item>
@@ -590,7 +590,7 @@
 				<Button name="СсылкаВсеОтчеты" id="261">
 					<Type>Hyperlink</Type>
 					<CommandName>0</CommandName>
-					<TextColor>style:ГиперссылкаЦвет</TextColor>
+					<TextColor>0:01f01bfe-556e-4249-b3d0-1a39e062d3a1</TextColor>
 					<ExtendedTooltip name="СсылкаВсеОтчетыExtendedTooltip" id="304"/>
 				</Button>
 				<LabelDecoration name="Декорация2" id="389">
@@ -807,7 +807,7 @@
 											</v8:item>
 										</Title>
 										<Picture>
-											<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+											<xr:Ref>0:f2267ecf-982d-4550-9efd-abc1ea79d6a1</xr:Ref>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
@@ -868,7 +868,7 @@
 										<ChildItems>
 											<PictureDecoration name="БыстрыйДоступШапкаКартинка" id="377">
 												<Picture>
-													<xr:Ref>CommonPicture.БыстрыйДоступ</xr:Ref>
+													<xr:Ref>0:99c8acb8-96d6-42f9-bb59-8d1ff96a8ec9</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</Picture>
 												<FileDragMode>AsFile</FileDragMode>
@@ -878,7 +878,7 @@
 											<LabelDecoration name="БыстрыйДоступШапкаНадпись" id="380">
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<Height>1</Height>
-												<TextColor>style:ГруппаВариантовОтчетовЦвет</TextColor>
+												<TextColor>0:bcd62c95-76fa-4543-b7bf-d5c704c51ba4</TextColor>
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -916,7 +916,7 @@
 											<LabelDecoration name="БыстрыйДоступПодсказкаКогдаНеНастроен" id="369">
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<SkipOnInput>true</SkipOnInput>
-												<TextColor>style:ПоясняющийТекст</TextColor>
+												<TextColor>0:252476c6-36b6-4313-b930-74a8f6bace23</TextColor>
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -1088,7 +1088,7 @@
 									<LabelDecoration name="СмТакжеЗаголовок" id="428">
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<SkipOnInput>true</SkipOnInput>
-										<TextColor>style:ГруппаВариантовОтчетовЦвет</TextColor>
+										<TextColor>0:bcd62c95-76fa-4543-b7bf-d5c704c51ba4</TextColor>
 										<Font ref="style:NormalTextFont" height="0" kind="StyleItem"/>
 										<Title formatted="false">
 											<v8:item>
@@ -1205,7 +1205,7 @@
 					<Button name="СсылкаВсеОтчеты" id="261">
 						<Type>Hyperlink</Type>
 						<CommandName>0</CommandName>
-						<TextColor>style:ГиперссылкаЦвет</TextColor>
+						<TextColor>0:01f01bfe-556e-4249-b3d0-1a39e062d3a1</TextColor>
 						<ExtendedTooltip name="СсылкаВсеОтчетыExtendedTooltip" id="304"/>
 					</Button>
 					<LabelDecoration name="Декорация2" id="389">

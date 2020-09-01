@@ -61,11 +61,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
-			<StyleItem>ПоясняющийТекст</StyleItem>
-			<StyleItem>ГиперссылкаЦвет</StyleItem>
-			<CommonPicture>ДлительнаяОперация48</CommonPicture>
-			<CommonPicture>БыстрыйДоступ</CommonPicture>
 			<CommonModule>А1БСП_А1СписокМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ДополнительныеРеквизиты</CommonModule>
 			<CommonModule>А1БСП_ЗапрещающиеПрофили</CommonModule>
