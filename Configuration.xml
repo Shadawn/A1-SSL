@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2020-08-21</Version>
+			<Version>2020-08-31</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -61,6 +61,11 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ГиперссылкаЦвет</StyleItem>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
+			<CommonPicture>БыстрыйДоступ</CommonPicture>
 			<CommonModule>А1БСП_А1СписокМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ДополнительныеРеквизиты</CommonModule>
 			<CommonModule>А1БСП_ЗапрещающиеПрофили</CommonModule>
@@ -85,6 +90,7 @@
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>СменаПароля</CommonForm>
+			<CommonForm>ПанельОтчетов</CommonForm>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
