@@ -11,10 +11,6 @@
 				<xr:ObjectId>c67aa7ea-1669-4d2f-ab7e-70633a37a3e1</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
-				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>15f88a27-3c8d-4bf7-a525-06178f6d8717</xr:ObjectId>
-			</xr:ContainedObject>
-			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
 				<xr:ObjectId>c75bf857-a0c8-41e4-a41d-84c73c9c1720</xr:ObjectId>
 			</xr:ContainedObject>
@@ -25,6 +21,10 @@
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
 				<xr:ObjectId>24ee260e-12cb-4120-97ec-7ca597201f00</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>15f88a27-3c8d-4bf7-a525-06178f6d8717</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
