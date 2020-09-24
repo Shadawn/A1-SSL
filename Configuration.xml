@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2020-08-31</Version>
+			<Version>2020-09-20</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -67,6 +67,7 @@
 			<CommonModule>А1БСП_ИнтерактивнаяСменаПароля</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизит</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизитПоля</CommonModule>
+			<CommonModule>А1БСП_ОбъектыБезМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ПодключаемыеКоманды</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
