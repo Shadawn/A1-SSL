@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2020-09-20</Version>
+			<Version>2020-11-05-2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -81,6 +81,7 @@
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>УправлениеСвойствами</CommonModule>
 			<CommonModule>УправлениеСвойствамиКлиент</CommonModule>
+			<CommonModule>УправлениеСвойствамиСлужебный</CommonModule>
 			<FunctionalOption>ИспользоватьДополнительныеРеквизитыИСведения</FunctionalOption>
 			<Constant>ИспользоватьДополнительныеРеквизитыИСведения</Constant>
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
@@ -92,6 +93,7 @@
 			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
+			<Catalog>ВерсииРасширений</Catalog>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>

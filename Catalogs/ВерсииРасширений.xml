@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="a2a833b3-45bd-404b-babe-cd66acac4aa4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВерсииРасширений" category="Object">
+				<xr:TypeId>119effbb-cc33-44c5-946b-89c7e0ab0d2d</xr:TypeId>
+				<xr:ValueId>08ae8e57-1165-42d5-9002-df352916bbfe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВерсииРасширений" category="Ref">
+				<xr:TypeId>89602e05-0d35-47d9-86c1-9d91136c4458</xr:TypeId>
+				<xr:ValueId>53412c38-f640-477f-8f34-587dde085252</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВерсииРасширений" category="Selection">
+				<xr:TypeId>5fe4dad8-3271-4f1a-91fb-6ccf60cada8d</xr:TypeId>
+				<xr:ValueId>616bf4b5-cdca-47df-9e8d-0229541ab447</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВерсииРасширений" category="List">
+				<xr:TypeId>4636b710-8a00-4a78-ab4b-d87fb7a91543</xr:TypeId>
+				<xr:ValueId>8ab2aed9-a1f5-476b-b580-f8ddff3caa43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВерсииРасширений" category="Manager">
+				<xr:TypeId>1c1b1e17-ab8d-489d-99a2-5ed6f9013b88</xr:TypeId>
+				<xr:ValueId>3adc5054-4892-4b7d-bd57-3d933644cff7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВерсииРасширений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
