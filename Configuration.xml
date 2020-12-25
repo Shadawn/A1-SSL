@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2020-12-09</Version>
+			<Version>2020-12-24</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -62,11 +62,13 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>А1БСП_А1СписокМеханизмов</CommonModule>
+			<CommonModule>А1БСП_ВнешниеОбработки</CommonModule>
 			<CommonModule>А1БСП_ДополнительныеРеквизиты</CommonModule>
 			<CommonModule>А1БСП_ЗапрещающиеПрофили</CommonModule>
 			<CommonModule>А1БСП_ИнтерактивнаяСменаПароля</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизит</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизитПоля</CommonModule>
+			<CommonModule>А1БСП_Общее</CommonModule>
 			<CommonModule>А1БСП_ОбъектыБезМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ПодключаемыеКоманды</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
@@ -94,6 +96,7 @@
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
+			<Enum>ТипыКонтактнойИнформации</Enum>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
