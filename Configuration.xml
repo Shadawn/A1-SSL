@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>236a0d48-28df-4332-ab20-17a3a460f19f</xr:ObjectId>
+				<xr:ObjectId>85f65411-5b0b-4ecd-a692-aaeff9e1cdb6</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2020-12-24</Version>
+			<Version>2021-01-21</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
