@@ -39,7 +39,7 @@
 					<v8:content>А1БСП</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Переопределение БСП</Comment>
+			<Comment/>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>false</KeepMappingToExtendedConfigurationObjectsByIDs>
@@ -51,9 +51,14 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2021-02-09</Version>
+			<Version>2021-03-04</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>А1: БСП - надстройки над Библиотекой Стандартных Подсистем в рамках фрэймворка А1</v8:content>
+				</v8:item>
+			</BriefInformation>
 			<DetailedInformation/>
 			<Copyright/>
 			<VendorInformationAddress/>
