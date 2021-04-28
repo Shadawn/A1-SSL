@@ -21,10 +21,26 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="abdb85af-4c53-48a9-b334-f18d7497e52a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Адрес</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="e9cba98a-2a66-4718-b4e8-0355f4e720f2">
 				<InternalInfo/>
 				<Properties>
 					<Name>АдресЭлектроннойПочты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f62cbf4-4d07-47e1-bfcc-dfd7827525d4">
+				<InternalInfo/>
+				<Properties>
+					<Name>Телефон</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
