@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<CommandBarLocation>None</CommandBarLocation>
+	<MobileDeviceCommandBarContent>
+		<xr:Item>
+			<xr:Presentation/>
+			<xr:CheckState>0</xr:CheckState>
+			<xr:Value xsi:type="xs:string">МакетыПечатныхФормКоманднаяПанель</xr:Value>
+		</xr:Item>
+	</MobileDeviceCommandBarContent>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаОтборы" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filters</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборыExtendedTooltip" id="81"/>
+			<ChildItems>
+				<InputField name="СтрокаПоиска" id="47">
+					<DefaultItem>true</DefaultItem>
+					<TitleLocation>None</TitleLocation>
+					<Width>31</Width>
+					<DropListButton>true</DropListButton>
+					<ClearButton>true</ClearButton>
+					<EditTextUpdate>OnValueChange</EditTextUpdate>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Найти...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Find...</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="СтрокаПоискаExtendedTooltip" id="82"/>
+				</InputField>
+				<InputField name="ОтборПоИспользованиюМакета" id="52">
+					<Width>37</Width>
+					<ClearButton>true</ClearButton>
+					<ListChoiceMode>true</ListChoiceMode>
+					<TextEdit>false</TextEdit>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Все макеты</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All layouts</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ВсеМакеты</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Стандартные макеты (без изменений)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Standard layouts (not edited)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">НеИзмененные</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используемые макеты с внесенными изменениями</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Used templates with changes</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ИспользуемыеИзмененные</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Неиспользуемые макеты с внесенными изменениями</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Unused templates with changes</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">НеИспользуемыеИзмененные</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Все макеты с внесенными изменениями</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All edited layouts</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Измененные</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ОтборПоИспользованиюМакетаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ОтборПоИспользованиюМакетаExtendedTooltip" id="83"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="МакетыПечатныхФорм" id="54">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Макеты печатных форм</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Print form templates</v8:content>
+				</v8:item>
+			</Title>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="МакетыПечатныхФормКонтекстноеМеню" id="55"/>
+			<AutoCommandBar name="МакетыПечатныхФормКоманднаяПанель" id="56">
+				<ChildItems>
+					<ButtonGroup name="МакетыПечатныхФормГруппаОткрытиеМакета" id="76">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Макеты печатных форм группа открытие макета</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print form layout open layout group</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Открытие макета для просмотра или изменения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Open layout to view or edit</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="МакетыПечатныхФормГруппаОткрытиеМакетаExtendedTooltip" id="84"/>
+						<ChildItems>
+							<Button name="МакетыПечатныхФормОткрытьМакет" id="73">
+								<Type>CommandBarButton</Type>
+								<Enabled>false</Enabled>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="МакетыПечатныхФормОткрытьМакетExtendedTooltip" id="85"/>
+							</Button>
+							<Button name="МакетыПечатныхФормИзменитьМакет" id="72">
+								<Type>CommandBarButton</Type>
+								<Enabled>false</Enabled>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="МакетыПечатныхФормИзменитьМакетExtendedTooltip" id="86"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="МакетыПечатныхФормГруппаПереключениеИспользуемогоМакета" id="77">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Макеты печатных форм группа переключение используемого макета</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print form layout switching used layout group</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Переключение используемого макета</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Switch between layouts</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="МакетыПечатныхФормГруппаПереключениеИспользуемогоМакетаExtendedTooltip" id="87"/>
+						<ChildItems>
+							<Button name="МакетыПечатныхФормИспользоватьИзмененныйМакет" id="70">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="МакетыПечатныхФормИспользоватьИзмененныйМакетExtendedTooltip" id="88"/>
+							</Button>
+							<Button name="МакетыПечатныхФормИспользоватьСтандартныйМакет" id="71">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="МакетыПечатныхФормИспользоватьСтандартныйМакетExtendedTooltip" id="89"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Button name="МакетыПечатныхФормУдалитьИзмененныйМакет" id="74">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="МакетыПечатныхФормУдалитьИзмененныйМакетExtendedTooltip" id="90"/>
+					</Button>
+					<ButtonGroup name="МакетыПечатныхФормГруппаВсеДействия" id="78">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Макеты печатных форм группа все действия</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print form layouts all actions group</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все действия</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>All actions</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="МакетыПечатныхФормГруппаВсеДействияExtendedTooltip" id="91"/>
+						<ChildItems>
+							<Button name="МакетыПечатныхФормЗадатьДействиеПриВыбореМакетаПечатнойФормы" id="75">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="МакетыПечатныхФормЗадатьДействиеПриВыбореМакетаПечатнойФормыExtendedTooltip" id="92"/>
+							</Button>
+							<Button name="МакетыПечатныхФормИзменитьФорму" id="79">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="МакетыПечатныхФормИзменитьФормуExtendedTooltip" id="93"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Button name="МакетыПечатныхФормСправка" id="80">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="МакетыПечатныхФормСправкаExtendedTooltip" id="94"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="МакетыПечатныхФормExtendedTooltip" id="95"/>
+			<SearchStringAddition name="МакетыПечатныхФормСтрокаПоиска" id="99">
+				<AdditionSource>
+					<Item>МакетыПечатныхФорм</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МакетыПечатныхФормСтрокаПоискаКонтекстноеМеню" id="100"/>
+				<ExtendedTooltip name="МакетыПечатныхФормСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="МакетыПечатныхФормСостояниеПросмотра" id="102">
+				<AdditionSource>
+					<Item>МакетыПечатныхФорм</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МакетыПечатныхФормСостояниеПросмотраКонтекстноеМеню" id="103"/>
+				<ExtendedTooltip name="МакетыПечатныхФормСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="МакетыПечатныхФормУправлениеПоиском" id="105">
+				<AdditionSource>
+					<Item>МакетыПечатныхФорм</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="МакетыПечатныхФормУправлениеПоискомКонтекстноеМеню" id="106"/>
+				<ExtendedTooltip name="МакетыПечатныхФормУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<PictureField name="МакетыПечатныхФормИспользование" id="63">
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отредактирован</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edited</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="МакетыПечатныхФормИспользованиеКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="МакетыПечатныхФормИспользованиеExtendedTooltip" id="96"/>
+				</PictureField>
+				<InputField name="МакетыПечатныхФормПредставлениеМакета" id="59" DisplayImportance="VeryHigh">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>40</Width>
+					<ContextMenu name="МакетыПечатныхФормПредставлениеМакетаКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="МакетыПечатныхФормПредставлениеМакетаExtendedTooltip" id="97"/>
+				</InputField>
+				<InputField name="МакетыПечатныхФормПредставлениеВладельца" id="61" DisplayImportance="VeryLow">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МакетыПечатныхФормПредставлениеВладельцаКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="МакетыПечатныхФормПредставлениеВладельцаExtendedTooltip" id="98"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.11">
+		<CommandBarLocation>None</CommandBarLocation>
+		<MobileDeviceCommandBarContent>
+			<xr:Item>
+				<xr:Presentation/>
+				<xr:CheckState>0</xr:CheckState>
+				<xr:Value xsi:type="xs:string">МакетыПечатныхФормКоманднаяПанель</xr:Value>
+			</xr:Item>
+		</MobileDeviceCommandBarContent>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаОтборы" id="46">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отборы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filters</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОтборыExtendedTooltip" id="81"/>
+				<ChildItems>
+					<InputField name="СтрокаПоиска" id="47">
+						<DefaultItem>true</DefaultItem>
+						<TitleLocation>None</TitleLocation>
+						<Width>31</Width>
+						<DropListButton>true</DropListButton>
+						<ClearButton>true</ClearButton>
+						<EditTextUpdate>OnValueChange</EditTextUpdate>
+						<InputHint>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Найти...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Find...</v8:content>
+							</v8:item>
+						</InputHint>
+						<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="48"/>
+						<ExtendedTooltip name="СтрокаПоискаExtendedTooltip" id="82"/>
+					</InputField>
+					<InputField name="ОтборПоИспользованиюМакета" id="52">
+						<Width>37</Width>
+						<ClearButton>true</ClearButton>
+						<ListChoiceMode>true</ListChoiceMode>
+						<TextEdit>false</TextEdit>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Все макеты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All layouts</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">ВсеМакеты</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Стандартные макеты (без изменений)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Standard layouts (not edited)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">НеИзмененные</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Используемые макеты с внесенными изменениями</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Used templates with changes</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">ИспользуемыеИзмененные</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Неиспользуемые макеты с внесенными изменениями</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unused templates with changes</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">НеИспользуемыеИзмененные</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Все макеты с внесенными изменениями</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All edited layouts</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">Измененные</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ОтборПоИспользованиюМакетаКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ОтборПоИспользованиюМакетаExtendedTooltip" id="83"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="МакетыПечатныхФорм" id="54">
+				<Representation>List</Representation>
+				<ChangeRowSet>false</ChangeRowSet>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Макеты печатных форм</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print form templates</v8:content>
+					</v8:item>
+				</Title>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="МакетыПечатныхФормКонтекстноеМеню" id="55"/>
+				<AutoCommandBar name="МакетыПечатныхФормКоманднаяПанель" id="56">
+					<ChildItems>
+						<ButtonGroup name="МакетыПечатныхФормГруппаОткрытиеМакета" id="76">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Макеты печатных форм группа открытие макета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Print form layout open layout group</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Открытие макета для просмотра или изменения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open layout to view or edit</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="МакетыПечатныхФормГруппаОткрытиеМакетаExtendedTooltip" id="84"/>
+							<ChildItems>
+								<Button name="МакетыПечатныхФормОткрытьМакет" id="73">
+									<Type>CommandBarButton</Type>
+									<Enabled>false</Enabled>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="МакетыПечатныхФормОткрытьМакетExtendedTooltip" id="85"/>
+								</Button>
+								<Button name="МакетыПечатныхФормИзменитьМакет" id="72">
+									<Type>CommandBarButton</Type>
+									<Enabled>false</Enabled>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="МакетыПечатныхФормИзменитьМакетExtendedTooltip" id="86"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+						<ButtonGroup name="МакетыПечатныхФормГруппаПереключениеИспользуемогоМакета" id="77">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Макеты печатных форм группа переключение используемого макета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Print form layout switching used layout group</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Переключение используемого макета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Switch between layouts</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="МакетыПечатныхФормГруппаПереключениеИспользуемогоМакетаExtendedTooltip" id="87"/>
+							<ChildItems>
+								<Button name="МакетыПечатныхФормИспользоватьИзмененныйМакет" id="70">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="МакетыПечатныхФормИспользоватьИзмененныйМакетExtendedTooltip" id="88"/>
+								</Button>
+								<Button name="МакетыПечатныхФормИспользоватьСтандартныйМакет" id="71">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="МакетыПечатныхФормИспользоватьСтандартныйМакетExtendedTooltip" id="89"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+						<Button name="МакетыПечатныхФормУдалитьИзмененныйМакет" id="74">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="МакетыПечатныхФормУдалитьИзмененныйМакетExtendedTooltip" id="90"/>
+						</Button>
+						<ButtonGroup name="МакетыПечатныхФормГруппаВсеДействия" id="78">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Макеты печатных форм группа все действия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Print form layouts all actions group</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все действия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>All actions</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="МакетыПечатныхФормГруппаВсеДействияExtendedTooltip" id="91"/>
+							<ChildItems>
+								<Button name="МакетыПечатныхФормЗадатьДействиеПриВыбореМакетаПечатнойФормы" id="75">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="МакетыПечатныхФормЗадатьДействиеПриВыбореМакетаПечатнойФормыExtendedTooltip" id="92"/>
+								</Button>
+								<Button name="МакетыПечатныхФормИзменитьФорму" id="79">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="МакетыПечатныхФормИзменитьФормуExtendedTooltip" id="93"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+						<Button name="МакетыПечатныхФормСправка" id="80">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="МакетыПечатныхФормСправкаExtendedTooltip" id="94"/>
+						</Button>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="МакетыПечатныхФормExtendedTooltip" id="95"/>
+				<SearchStringAddition name="МакетыПечатныхФормСтрокаПоиска" id="99">
+					<AdditionSource>
+						<Item>МакетыПечатныхФорм</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="МакетыПечатныхФормСтрокаПоискаКонтекстноеМеню" id="100"/>
+					<ExtendedTooltip name="МакетыПечатныхФормСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="МакетыПечатныхФормСостояниеПросмотра" id="102">
+					<AdditionSource>
+						<Item>МакетыПечатныхФорм</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="МакетыПечатныхФормСостояниеПросмотраКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="МакетыПечатныхФормСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="МакетыПечатныхФормУправлениеПоиском" id="105">
+					<AdditionSource>
+						<Item>МакетыПечатныхФорм</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="МакетыПечатныхФормУправлениеПоискомКонтекстноеМеню" id="106"/>
+					<ExtendedTooltip name="МакетыПечатныхФормУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<PictureField name="МакетыПечатныхФормИспользование" id="63">
+						<ReadOnly>true</ReadOnly>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отредактирован</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Edited</v8:content>
+							</v8:item>
+						</ToolTip>
+						<EditMode>EnterOnInput</EditMode>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="МакетыПечатныхФормИспользованиеКонтекстноеМеню" id="64"/>
+						<ExtendedTooltip name="МакетыПечатныхФормИспользованиеExtendedTooltip" id="96"/>
+					</PictureField>
+					<InputField name="МакетыПечатныхФормПредставлениеМакета" id="59" DisplayImportance="VeryHigh">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>40</Width>
+						<ContextMenu name="МакетыПечатныхФормПредставлениеМакетаКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="МакетыПечатныхФормПредставлениеМакетаExtendedTooltip" id="97"/>
+					</InputField>
+					<InputField name="МакетыПечатныхФормПредставлениеВладельца" id="61" DisplayImportance="VeryLow">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="МакетыПечатныхФормПредставлениеВладельцаКонтекстноеМеню" id="62"/>
+						<ExtendedTooltip name="МакетыПечатныхФормПредставлениеВладельцаExtendedTooltip" id="98"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

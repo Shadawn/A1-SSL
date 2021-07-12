@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2021-06-02</Version>
+			<Version>2021-06-24</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -106,6 +106,7 @@
 			<Catalog>ВерсииРасширений</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
+			<InformationRegister>ПользовательскиеМакетыПечати</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
