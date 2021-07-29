@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2021-06-24</Version>
+			<Version>2021-07-28</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -77,6 +77,7 @@
 			<CommonModule>А1БСП_Общее</CommonModule>
 			<CommonModule>А1БСП_ОбъектыБезМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ПодключаемыеКоманды</CommonModule>
+			<CommonModule>А1БСП_Файлы</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>КлиентЛицензированияГлобальный</CommonModule>
 			<CommonModule>МониторПортала1СИТСГлобальный</CommonModule>
