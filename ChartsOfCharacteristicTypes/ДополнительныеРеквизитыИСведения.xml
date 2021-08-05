@@ -65,6 +65,17 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="233fecb5-1c59-40b4-abdd-13f87c4112ed">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЭтоДополнительноеСведение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</ChartOfCharacteristicTypes>
 </MetaDataObject>
