@@ -27,6 +27,9 @@
 			<Name>ЗначенияСвойствОбъектов</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</xr:Item>
+			</Owners>
 		</Properties>
 		<ChildObjects/>
 	</Catalog>
