@@ -135,7 +135,7 @@
 		<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 		<CommandBarLocation>Bottom</CommandBarLocation>
 		<CommandSet>
-			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
 		</CommandSet>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
