@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
@@ -35,6 +35,7 @@
 				</v8:item>
 			</Title>
 			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
 				<Page name="СтраницаСоставГруппировки" id="585">
@@ -366,6 +367,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="НастройкиПростогоРежимаРасширеннаяПодсказка" id="1224"/>
@@ -383,6 +385,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="1234"/>
@@ -420,6 +423,7 @@
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ПредопределенныеНастройкиРасширеннаяПодсказка" id="1144"/>
@@ -964,6 +968,7 @@
 									<v8:content>There are nested filters</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЕстьВложенныеОтборыРасширеннаяПодсказка" id="807"/>
@@ -1034,6 +1039,7 @@
 									<v8:content>Fields and sortings</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПоляИСортировкиРасширеннаяПодсказка" id="901"/>
@@ -1395,6 +1401,7 @@
 											<v8:content>Sorting</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСортировкиРасширеннаяПодсказка" id="1014"/>
@@ -1412,6 +1419,7 @@
 											</Title>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="КомандыПолейИСортировокРасширеннаяПодсказка" id="903"/>
@@ -1772,6 +1780,7 @@
 									<v8:content>There are nested fields or sortings</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЕстьВложенныеПоляИлиСортировкиРасширеннаяПодсказка" id="1003"/>
@@ -2055,6 +2064,7 @@
 									<v8:content>There is embedded appearance </v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЕстьВложенноеОформлениеРасширеннаяПодсказка" id="927"/>
@@ -2696,6 +2706,7 @@
 					<v8:content>There are attached reports</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЕстьВложенныеОтчетыРасширеннаяПодсказка" id="792"/>
@@ -2749,6 +2760,7 @@
 				</v8:item>
 			</Title>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЕстьНесуществующиеПоляРасширеннаяПодсказка" id="1111">
@@ -2821,6 +2833,7 @@ Remove non-existing fields from report settings or replace them with the existin
 					<v8:content>Form commands</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="74"/>
 			<ChildItems>
@@ -2984,6 +2997,7 @@ Advanced mode is designed to change the report structure. After changing the str
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ПредопределенныеЭлементыНастроекРасширеннаяПодсказка" id="1257"/>
 			<ChildItems>
 				<UsualGroup name="Период1" id="1243">
@@ -2999,6 +3013,7 @@ Advanced mode is designed to change the report structure. After changing the str
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Период1РасширеннаяПодсказка" id="1244"/>
@@ -3073,6 +3088,7 @@ Advanced mode is designed to change the report structure. After changing the str
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Период2РасширеннаяПодсказка" id="1345"/>
@@ -3466,7 +3482,7 @@ Advanced mode is designed to change the report structure. After changing the str
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.12">
+	<BaseForm version="2.13">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<AutoTitle>false</AutoTitle>
 		<AutoURL>false</AutoURL>
@@ -3502,6 +3518,7 @@ Advanced mode is designed to change the report structure. After changing the str
 					</v8:item>
 				</Title>
 				<VerticalStretch>true</VerticalStretch>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
 				<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="36"/>
 				<ChildItems>
 					<Page name="СтраницаСоставГруппировки" id="585">
@@ -3833,6 +3850,7 @@ Advanced mode is designed to change the report structure. After changing the str
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="НастройкиПростогоРежимаРасширеннаяПодсказка" id="1224"/>
@@ -3850,6 +3868,7 @@ Advanced mode is designed to change the report structure. After changing the str
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="1234"/>
@@ -3887,6 +3906,7 @@ Advanced mode is designed to change the report structure. After changing the str
 													</v8:item>
 												</Title>
 												<Group>AlwaysHorizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>NormalSeparation</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ПредопределенныеНастройкиРасширеннаяПодсказка" id="1144"/>
@@ -4431,6 +4451,7 @@ Advanced mode is designed to change the report structure. After changing the str
 										<v8:content>There are nested filters</v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаЕстьВложенныеОтборыРасширеннаяПодсказка" id="807"/>
@@ -4501,6 +4522,7 @@ Advanced mode is designed to change the report structure. After changing the str
 										<v8:content>Fields and sortings</v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПоляИСортировкиРасширеннаяПодсказка" id="901"/>
@@ -4862,6 +4884,7 @@ Advanced mode is designed to change the report structure. After changing the str
 												<v8:content>Sorting</v8:content>
 											</v8:item>
 										</Title>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаСортировкиРасширеннаяПодсказка" id="1014"/>
@@ -4879,6 +4902,7 @@ Advanced mode is designed to change the report structure. After changing the str
 												</Title>
 												<GroupVerticalAlign>Center</GroupVerticalAlign>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="КомандыПолейИСортировокРасширеннаяПодсказка" id="903"/>
@@ -5239,6 +5263,7 @@ Advanced mode is designed to change the report structure. After changing the str
 										<v8:content>There are nested fields or sortings</v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаЕстьВложенныеПоляИлиСортировкиРасширеннаяПодсказка" id="1003"/>
@@ -5522,6 +5547,7 @@ Advanced mode is designed to change the report structure. After changing the str
 										<v8:content>There is embedded appearance </v8:content>
 									</v8:item>
 								</Title>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаЕстьВложенноеОформлениеРасширеннаяПодсказка" id="927"/>
@@ -6163,6 +6189,7 @@ Advanced mode is designed to change the report structure. After changing the str
 						<v8:content>There are attached reports</v8:content>
 					</v8:item>
 				</Title>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаЕстьВложенныеОтчетыРасширеннаяПодсказка" id="792"/>
@@ -6216,6 +6243,7 @@ Advanced mode is designed to change the report structure. After changing the str
 					</v8:item>
 				</Title>
 				<ToolTipRepresentation>Button</ToolTipRepresentation>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаЕстьНесуществующиеПоляРасширеннаяПодсказка" id="1111">
@@ -6288,6 +6316,7 @@ Remove non-existing fields from report settings or replace them with the existin
 						<v8:content>Form commands</v8:content>
 					</v8:item>
 				</Title>
+				<Behavior>Usual</Behavior>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="74"/>
 				<ChildItems>
@@ -6451,6 +6480,7 @@ Advanced mode is designed to change the report structure. After changing the str
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<ExtendedTooltip name="ПредопределенныеЭлементыНастроекРасширеннаяПодсказка" id="1257"/>
 				<ChildItems>
 					<UsualGroup name="Период1" id="1243">
@@ -6466,6 +6496,7 @@ Advanced mode is designed to change the report structure. After changing the str
 							</v8:item>
 						</Title>
 						<Group>AlwaysHorizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="Период1РасширеннаяПодсказка" id="1244"/>
@@ -6540,6 +6571,7 @@ Advanced mode is designed to change the report structure. After changing the str
 							</v8:item>
 						</Title>
 						<Group>AlwaysHorizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="Период2РасширеннаяПодсказка" id="1345"/>
