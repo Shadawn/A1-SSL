@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<InformationRegister uuid="2f5696c8-535f-4973-94cf-27fbec14c3e6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиВерсионированияОбъектов" category="Record">
+				<xr:TypeId>8dfac679-5a7b-4364-b491-3c271abd9286</xr:TypeId>
+				<xr:ValueId>2491692a-c814-4010-bba2-8ac6b2229ea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиВерсионированияОбъектов" category="Manager">
+				<xr:TypeId>99bce57b-31ab-4535-9016-773b0486753e</xr:TypeId>
+				<xr:ValueId>1dd99f26-865e-48ef-bb53-6f2841c1eeb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиВерсионированияОбъектов" category="Selection">
+				<xr:TypeId>4c006a39-8b16-470f-ad9d-d2c6f9119dc4</xr:TypeId>
+				<xr:ValueId>43a455c1-d046-4e11-9cbd-13300c7266e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиВерсионированияОбъектов" category="List">
+				<xr:TypeId>c4e540a0-9e71-43ae-a419-b303173b01a0</xr:TypeId>
+				<xr:ValueId>fdf26dfe-f4dc-4ce2-b6cb-cd23caf38309</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиВерсионированияОбъектов" category="RecordSet">
+				<xr:TypeId>4bf47765-5e42-40e0-827d-e305d8bc1c3e</xr:TypeId>
+				<xr:ValueId>f4e3e13a-aab8-417e-9cb1-c5998efb6f8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиВерсионированияОбъектов" category="RecordKey">
+				<xr:TypeId>c1ab98f9-eccc-4269-ada3-60a33a31b82f</xr:TypeId>
+				<xr:ValueId>356ce7cf-f890-47f6-b1b9-0578115ffd4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиВерсионированияОбъектов" category="RecordManager">
+				<xr:TypeId>4034d242-0c5b-4345-a98a-eb0c321b9517</xr:TypeId>
+				<xr:ValueId>4fe900bf-1ca8-46c1-9907-8485df27b5bd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиВерсионированияОбъектов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3ac3e5d0-16fd-4593-b3bf-0df888c1b1d7">
+				<InternalInfo/>
+				<Properties>
+					<Name>Использовать</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7f0b9d84-a5e5-488e-b1cc-47316208d0d6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипОбъекта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовРасширений</v8:Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>НастройкиХраненияИстории</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

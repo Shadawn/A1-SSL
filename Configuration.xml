@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2021-11-29</Version>
+			<Version>2022-02-10</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -71,6 +71,7 @@
 			<CommonModule>А1БСП_ДополнительныеРеквизиты</CommonModule>
 			<CommonModule>А1БСП_ЗапрещающиеПрофили</CommonModule>
 			<CommonModule>А1БСП_ИнтерактивнаяСменаПароля</CommonModule>
+			<CommonModule>А1БСП_ИсторияИзменений</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизит</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизитПоля</CommonModule>
 			<CommonModule>А1БСП_КонтактнаяИнформация</CommonModule>
@@ -87,14 +88,15 @@
 			<CommonModule>ПользователиСлужебныйКлиент</CommonModule>
 			<CommonModule>РезервноеКопированиеИБКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
-			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>УправлениеСвойствами</CommonModule>
 			<CommonModule>УправлениеСвойствамиКлиент</CommonModule>
 			<CommonModule>УправлениеСвойствамиСлужебный</CommonModule>
+			<CommonModule>ВерсионированиеОбъектов</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьДополнительныеРеквизитыИСведения</FunctionalOption>
 			<Constant>ИспользоватьДополнительныеРеквизитыИСведения</Constant>
@@ -102,16 +104,21 @@
 			<CommonForm>СменаПароля</CommonForm>
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
+			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
-			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Catalog>ВерсииРасширений</Catalog>
+			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
+			<Enum>ВариантыВерсионированияОбъектов</Enum>
+			<Enum>СрокиХраненияВерсий</Enum>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
 			<InformationRegister>ПользовательскиеМакетыПечати</InformationRegister>
+			<InformationRegister>НастройкиВерсионированияОбъектов</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>

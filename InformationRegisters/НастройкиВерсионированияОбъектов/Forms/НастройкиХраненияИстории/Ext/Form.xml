@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки хранения истории изменений</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ВариантВерсионированияГруппа" id="24">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить когда сохранять версии</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить вариант версионирования для выделенных объектов</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ВариантВерсионированияГруппаExtendedTooltip" id="36"/>
+				<ChildItems>
+					<Button name="УстановитьВариантВерсионированияНеВерсионировать" id="27">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip" id="37"/>
+					</Button>
+					<Button name="УстановитьВариантВерсионированияВсегда" id="26">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="УстановитьВариантВерсионированияВсегдаExtendedTooltip" id="38"/>
+					</Button>
+					<Button name="УстановитьВариантВерсионированияПриПроведении" id="25">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="УстановитьВариантВерсионированияПриПроведенииExtendedTooltip" id="39"/>
+					</Button>
+					<Button name="ФормаВерсионироватьПриСтарте" id="97">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаВерсионироватьПриСтартеРасширеннаяПодсказка" id="98"/>
+					</Button>
+					<ButtonGroup name="КоманднаяПанельГруппаКнопок" id="33">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Командная панель группа кнопок</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="КоманднаяПанельГруппаКнопокExtendedTooltip" id="40"/>
+						<ChildItems>
+							<Button name="УстановитьНастройкиПоУмолчанию" id="23">
+								<Type>CommandBarButton</Type>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="УстановитьНастройкиПоУмолчаниюExtendedTooltip" id="41"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="УстановитьСрокХраненияВерсий" id="83">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить срок хранения версий</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="УстановитьСрокХраненияВерсийРасширеннаяПодсказка" id="84"/>
+				<ChildItems>
+					<Button name="ФормаЗаПоследнююНеделю" id="85">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаЗаПоследнююНеделюРасширеннаяПодсказка" id="86"/>
+					</Button>
+					<Button name="ФормаЗаПоследнийМесяц" id="87">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаЗаПоследнийМесяцРасширеннаяПодсказка" id="88"/>
+					</Button>
+					<Button name="ФормаЗаПоследниеТриМесяца" id="89">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаЗаПоследниеТриМесяцаРасширеннаяПодсказка" id="90"/>
+					</Button>
+					<Button name="ФормаЗаПоследниеШестьМесяцев" id="91">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаЗаПоследниеШестьМесяцевРасширеннаяПодсказка" id="92"/>
+					</Button>
+					<Button name="ФормаЗаПоследнийГод" id="93">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаЗаПоследнийГодРасширеннаяПодсказка" id="94"/>
+					</Button>
+					<Button name="ФормаБессрочно" id="95">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаБессрочноРасширеннаяПодсказка" id="96"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<ButtonGroup name="КомандыСписка" id="34">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды списка</v8:content>
+					</v8:item>
+				</Title>
+				<CommandSource>Item.ДеревоОбъектовМетаданных</CommandSource>
+				<ExtendedTooltip name="КомандыСпискаExtendedTooltip" id="42"/>
+			</ButtonGroup>
+			<Button name="ДеревоОбъектовМетаданныхОбновить" id="35">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ДеревоОбъектовМетаданныхОбновитьExtendedTooltip" id="43"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="ДеревоОбъектовМетаданных" id="11">
+			<Representation>Tree</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<FileDragMode>AsFile</FileDragMode>
+			<BorderColor>style:BorderColor</BorderColor>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево объектов метаданных</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДеревоОбъектовМетаданныхКонтекстноеМеню" id="12">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Popup name="ПодменюУстановитьВариантВерсионирования" id="111">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Установить вариант версионирования</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюУстановитьВариантВерсионированияРасширеннаяПодсказка" id="112"/>
+						<ChildItems>
+							<ButtonGroup name="ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопок" id="32">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дерево объектов метаданных контекстное меню группа кнопок</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопокExtendedTooltip" id="47"/>
+								<ChildItems>
+									<Button name="КМ_УстановитьНастройкиПоУмолчанию" id="31">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="КМ_УстановитьНастройкиПоУмолчаниюExtendedTooltip" id="48"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+							<Button name="КМ_УстановитьВариантВерсионированияНеВерсионировать" id="28">
+								<Type>CommandBarButton</Type>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip" id="46"/>
+							</Button>
+							<Button name="КМ_УстановитьВариантВерсионированияВсегда" id="29">
+								<Type>CommandBarButton</Type>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияВсегдаExtendedTooltip" id="45"/>
+							</Button>
+							<Button name="КМ_УстановитьВариантВерсионированияПриПроведении" id="30">
+								<Type>CommandBarButton</Type>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияПриПроведенииExtendedTooltip" id="44"/>
+							</Button>
+							<Button name="ДеревоОбъектовМетаданныхКонтекстноеМенюВерсионироватьПриСтарте" id="130">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДеревоОбъектовМетаданныхКонтекстноеМенюВерсионироватьПриСтартеРасширеннаяПодсказка" id="131"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+					<Popup name="ПодменюУстановитьСрокХраненияВерсий" id="113">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Установить срок хранения версий</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюУстановитьСрокХраненияВерсийРасширеннаяПодсказка" id="114"/>
+						<ChildItems>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнююНеделю" id="99">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнююНеделюРасширеннаяПодсказка" id="100"/>
+							</Button>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийМесяц" id="101">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийМесяцРасширеннаяПодсказка" id="102"/>
+							</Button>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеТриМесяца" id="103">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеТриМесяцаРасширеннаяПодсказка" id="104"/>
+							</Button>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеШестьМесяцев" id="105">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеШестьМесяцевРасширеннаяПодсказка" id="106"/>
+							</Button>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийГод" id="107">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийГодРасширеннаяПодсказка" id="108"/>
+							</Button>
+							<Button name="СрокХраненияВерсийКонтекстноеМенюБессрочно" id="109">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюБессрочноРасширеннаяПодсказка" id="110"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="ДеревоОбъектовМетаданныхКоманднаяПанель" id="13"/>
+			<ExtendedTooltip name="ДеревоОбъектовМетаданныхExtendedTooltip" id="49"/>
+			<SearchStringAddition name="ДеревоОбъектовМетаданныхСтрокаПоиска" id="121">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОбъектовМетаданныхСтрокаПоискаКонтекстноеМеню" id="122"/>
+				<ExtendedTooltip name="ДеревоОбъектовМетаданныхСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоОбъектовМетаданныхСостояниеПросмотра" id="124">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОбъектовМетаданныхСостояниеПросмотраКонтекстноеМеню" id="125"/>
+				<ExtendedTooltip name="ДеревоОбъектовМетаданныхСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоОбъектовМетаданныхУправлениеПоиском" id="127">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоОбъектовМетаданныхУправлениеПоискомКонтекстноеМеню" id="128"/>
+				<ExtendedTooltip name="ДеревоОбъектовМетаданныхУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<ColumnGroup name="КартинкаНаименование" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="КартинкаНаименованиеExtendedTooltip" id="50"/>
+					<ChildItems>
+						<PictureField name="Картинка" id="21">
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<Width>2</Width>
+							<Height>1</Height>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+							</Border>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="КартинкаКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="КартинкаExtendedTooltip" id="51"/>
+						</PictureField>
+						<InputField name="НаименованиеОбъекта" id="14">
+							<ReadOnly>true</ReadOnly>
+							<Wrap>false</Wrap>
+							<BorderColor>style:BorderColor</BorderColor>
+							<ContextMenu name="НаименованиеОбъектаКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="НаименованиеОбъектаExtendedTooltip" id="52"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ВариантВерсионирования" id="16">
+					<Wrap>false</Wrap>
+					<ChoiceButton>false</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChooseType>false</ChooseType>
+					<TypeDomainEnabled>false</TypeDomainEnabled>
+					<TextEdit>false</TextEdit>
+					<BorderColor>style:BorderColor</BorderColor>
+					<ContextMenu name="ВариантВерсионированияКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ВариантВерсионированияExtendedTooltip" id="53"/>
+				</InputField>
+				<InputField name="СрокХраненияВерсий" id="54">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СрокХраненияВерсийКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="СрокХраненияВерсийРасширеннаяПодсказка" id="56"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="КоличествоИОбъемХранимыхВерсийОбъектов" id="119">
+			<Type>Hyperlink</Type>
+			<CommandName>0</CommandName>
+			<ExtendedTooltip name="КоличествоИОбъемХранимыхВерсийОбъектовРасширеннаяПодсказка" id="120"/>
+		</Button>
+		<UsualGroup name="ОчисткаУстаревшихВерсий" id="57">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистка устаревших версий</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ОчисткаУстаревшихВерсийРасширеннаяПодсказка" id="58"/>
+			<ChildItems>
+				<LabelDecoration name="ИнформацияОбУстаревшихВерсиях" id="59">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего устаревших версий: 1 234 (1,2Мб)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИнформацияОбУстаревшихВерсияхКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ИнформацияОбУстаревшихВерсияхРасширеннаяПодсказка" id="61"/>
+				</LabelDecoration>
+				<Button name="Очистить" id="62">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОчиститьРасширеннаяПодсказка" id="63"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="УдалениеВерсийПоРасписанию" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление версий по расписанию</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="УдалениеВерсийПоРасписаниюРасширеннаяПодсказка" id="65"/>
+			<ChildItems>
+				<UsualGroup name="НастройкиУдаления" id="79">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки удаления</v8:content>
+						</v8:item>
+					</Title>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="НастройкиУдаленияРасширеннаяПодсказка" id="80"/>
+					<ChildItems>
+						<CheckBoxField name="АвтоматическиУдалятьУстаревшиеВерсии" id="66">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="АвтоматическиУдалятьУстаревшиеВерсииКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="АвтоматическиУдалятьУстаревшиеВерсииРасширеннаяПодсказка" id="68"/>
+						</CheckBoxField>
+						<Button name="НастроитьРасписание" id="81">
+							<Type>Hyperlink</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="НастроитьРасписаниеРасширеннаяПодсказка" id="82"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Расписание" id="74">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>каждый  день, по дням недели [вторник, среда, четверг, пятница, суббота ]; с 3:00:00 один раз в день, завершать после 7:00:00</v8:content>
+						</v8:item>
+					</Title>
+					<VerticalAlign>Top</VerticalAlign>
+					<ContextMenu name="РасписаниеКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="РасписаниеРасширеннаяПодсказка" id="76"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.13">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Настройки хранения истории изменений</v8:content>
+			</v8:item>
+		</Title>
+		<AutoTitle>false</AutoTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Popup name="ВариантВерсионированияГруппа" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить когда сохранять версии</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить вариант версионирования для выделенных объектов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВариантВерсионированияГруппаExtendedTooltip" id="36"/>
+					<ChildItems>
+						<Button name="УстановитьВариантВерсионированияНеВерсионировать" id="27">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip" id="37"/>
+						</Button>
+						<Button name="УстановитьВариантВерсионированияВсегда" id="26">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="УстановитьВариантВерсионированияВсегдаExtendedTooltip" id="38"/>
+						</Button>
+						<Button name="УстановитьВариантВерсионированияПриПроведении" id="25">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="УстановитьВариантВерсионированияПриПроведенииExtendedTooltip" id="39"/>
+						</Button>
+						<Button name="ФормаВерсионироватьПриСтарте" id="97">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаВерсионироватьПриСтартеРасширеннаяПодсказка" id="98"/>
+						</Button>
+						<ButtonGroup name="КоманднаяПанельГруппаКнопок" id="33">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель группа кнопок</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КоманднаяПанельГруппаКнопокExtendedTooltip" id="40"/>
+							<ChildItems>
+								<Button name="УстановитьНастройкиПоУмолчанию" id="23">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="УстановитьНастройкиПоУмолчаниюExtendedTooltip" id="41"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+					</ChildItems>
+				</Popup>
+				<Popup name="УстановитьСрокХраненияВерсий" id="83">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить срок хранения версий</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="УстановитьСрокХраненияВерсийРасширеннаяПодсказка" id="84"/>
+					<ChildItems>
+						<Button name="ФормаЗаПоследнююНеделю" id="85">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаЗаПоследнююНеделюРасширеннаяПодсказка" id="86"/>
+						</Button>
+						<Button name="ФормаЗаПоследнийМесяц" id="87">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаЗаПоследнийМесяцРасширеннаяПодсказка" id="88"/>
+						</Button>
+						<Button name="ФормаЗаПоследниеТриМесяца" id="89">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаЗаПоследниеТриМесяцаРасширеннаяПодсказка" id="90"/>
+						</Button>
+						<Button name="ФормаЗаПоследниеШестьМесяцев" id="91">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаЗаПоследниеШестьМесяцевРасширеннаяПодсказка" id="92"/>
+						</Button>
+						<Button name="ФормаЗаПоследнийГод" id="93">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаЗаПоследнийГодРасширеннаяПодсказка" id="94"/>
+						</Button>
+						<Button name="ФормаБессрочно" id="95">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ФормаБессрочноРасширеннаяПодсказка" id="96"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<ButtonGroup name="КомандыСписка" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды списка</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>Item.ДеревоОбъектовМетаданных</CommandSource>
+					<ExtendedTooltip name="КомандыСпискаExtendedTooltip" id="42"/>
+				</ButtonGroup>
+				<Button name="ДеревоОбъектовМетаданныхОбновить" id="35">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ДеревоОбъектовМетаданныхОбновитьExtendedTooltip" id="43"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Table name="ДеревоОбъектовМетаданных" id="11">
+				<Representation>Tree</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<SkipOnInput>false</SkipOnInput>
+				<ChangeRowSet>false</ChangeRowSet>
+				<ChangeRowOrder>false</ChangeRowOrder>
+				<InitialTreeView>ExpandAllLevels</InitialTreeView>
+				<FileDragMode>AsFile</FileDragMode>
+				<BorderColor>style:BorderColor</BorderColor>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дерево объектов метаданных</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="ДеревоОбъектовМетаданныхКонтекстноеМеню" id="12">
+					<Autofill>false</Autofill>
+					<ChildItems>
+						<Popup name="ПодменюУстановитьВариантВерсионирования" id="111">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Установить вариант версионирования</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ПодменюУстановитьВариантВерсионированияРасширеннаяПодсказка" id="112"/>
+							<ChildItems>
+								<ButtonGroup name="ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопок" id="32">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дерево объектов метаданных контекстное меню группа кнопок</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопокExtendedTooltip" id="47"/>
+									<ChildItems>
+										<Button name="КМ_УстановитьНастройкиПоУмолчанию" id="31">
+											<Type>CommandBarButton</Type>
+											<SkipOnInput>false</SkipOnInput>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="КМ_УстановитьНастройкиПоУмолчаниюExtendedTooltip" id="48"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+								<Button name="КМ_УстановитьВариантВерсионированияНеВерсионировать" id="28">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip" id="46"/>
+								</Button>
+								<Button name="КМ_УстановитьВариантВерсионированияВсегда" id="29">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияВсегдаExtendedTooltip" id="45"/>
+								</Button>
+								<Button name="КМ_УстановитьВариантВерсионированияПриПроведении" id="30">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="КМ_УстановитьВариантВерсионированияПриПроведенииExtendedTooltip" id="44"/>
+								</Button>
+								<Button name="ДеревоОбъектовМетаданныхКонтекстноеМенюВерсионироватьПриСтарте" id="130">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДеревоОбъектовМетаданныхКонтекстноеМенюВерсионироватьПриСтартеРасширеннаяПодсказка" id="131"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+						<Popup name="ПодменюУстановитьСрокХраненияВерсий" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Установить срок хранения версий</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ПодменюУстановитьСрокХраненияВерсийРасширеннаяПодсказка" id="114"/>
+							<ChildItems>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнююНеделю" id="99">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнююНеделюРасширеннаяПодсказка" id="100"/>
+								</Button>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийМесяц" id="101">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийМесяцРасширеннаяПодсказка" id="102"/>
+								</Button>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеТриМесяца" id="103">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеТриМесяцаРасширеннаяПодсказка" id="104"/>
+								</Button>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеШестьМесяцев" id="105">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследниеШестьМесяцевРасширеннаяПодсказка" id="106"/>
+								</Button>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийГод" id="107">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюЗаПоследнийГодРасширеннаяПодсказка" id="108"/>
+								</Button>
+								<Button name="СрокХраненияВерсийКонтекстноеМенюБессрочно" id="109">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СрокХраненияВерсийКонтекстноеМенюБессрочноРасширеннаяПодсказка" id="110"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</ContextMenu>
+				<AutoCommandBar name="ДеревоОбъектовМетаданныхКоманднаяПанель" id="13"/>
+				<ExtendedTooltip name="ДеревоОбъектовМетаданныхExtendedTooltip" id="49"/>
+				<SearchStringAddition name="ДеревоОбъектовМетаданныхСтрокаПоиска" id="121">
+					<AdditionSource>
+						<Item>ДеревоОбъектовМетаданных</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоОбъектовМетаданныхСтрокаПоискаКонтекстноеМеню" id="122"/>
+					<ExtendedTooltip name="ДеревоОбъектовМетаданныхСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДеревоОбъектовМетаданныхСостояниеПросмотра" id="124">
+					<AdditionSource>
+						<Item>ДеревоОбъектовМетаданных</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоОбъектовМетаданныхСостояниеПросмотраКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="ДеревоОбъектовМетаданныхСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДеревоОбъектовМетаданныхУправлениеПоиском" id="127">
+					<AdditionSource>
+						<Item>ДеревоОбъектовМетаданных</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоОбъектовМетаданныхУправлениеПоискомКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="ДеревоОбъектовМетаданныхУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<ColumnGroup name="КартинкаНаименование" id="20">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Картинка наименование</v8:content>
+							</v8:item>
+						</Title>
+						<Group>InCell</Group>
+						<ExtendedTooltip name="КартинкаНаименованиеExtendedTooltip" id="50"/>
+						<ChildItems>
+							<PictureField name="Картинка" id="21">
+								<ReadOnly>true</ReadOnly>
+								<TitleLocation>None</TitleLocation>
+								<Width>2</Width>
+								<Height>1</Height>
+								<Border width="1">
+									<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+								</Border>
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="КартинкаКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="КартинкаExtendedTooltip" id="51"/>
+							</PictureField>
+							<InputField name="НаименованиеОбъекта" id="14">
+								<ReadOnly>true</ReadOnly>
+								<Wrap>false</Wrap>
+								<BorderColor>style:BorderColor</BorderColor>
+								<ContextMenu name="НаименованиеОбъектаКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="НаименованиеОбъектаExtendedTooltip" id="52"/>
+							</InputField>
+						</ChildItems>
+					</ColumnGroup>
+					<InputField name="ВариантВерсионирования" id="16">
+						<Wrap>false</Wrap>
+						<ChoiceButton>false</ChoiceButton>
+						<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+						<ListChoiceMode>true</ListChoiceMode>
+						<ChooseType>false</ChooseType>
+						<TypeDomainEnabled>false</TypeDomainEnabled>
+						<TextEdit>false</TextEdit>
+						<BorderColor>style:BorderColor</BorderColor>
+						<ContextMenu name="ВариантВерсионированияКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="ВариантВерсионированияExtendedTooltip" id="53"/>
+					</InputField>
+					<InputField name="СрокХраненияВерсий" id="54">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="СрокХраненияВерсийКонтекстноеМеню" id="55"/>
+						<ExtendedTooltip name="СрокХраненияВерсийРасширеннаяПодсказка" id="56"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<Button name="КоличествоИОбъемХранимыхВерсийОбъектов" id="119">
+				<Type>Hyperlink</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="КоличествоИОбъемХранимыхВерсийОбъектовРасширеннаяПодсказка" id="120"/>
+			</Button>
+			<UsualGroup name="ОчисткаУстаревшихВерсий" id="57">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Очистка устаревших версий</v8:content>
+					</v8:item>
+				</Title>
+				<Behavior>Usual</Behavior>
+				<ExtendedTooltip name="ОчисткаУстаревшихВерсийРасширеннаяПодсказка" id="58"/>
+				<ChildItems>
+					<LabelDecoration name="ИнформацияОбУстаревшихВерсиях" id="59">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Всего устаревших версий: 1 234 (1,2Мб)</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ИнформацияОбУстаревшихВерсияхКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="ИнформацияОбУстаревшихВерсияхРасширеннаяПодсказка" id="61"/>
+					</LabelDecoration>
+					<Button name="Очистить" id="62">
+						<Type>UsualButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОчиститьРасширеннаяПодсказка" id="63"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="УдалениеВерсийПоРасписанию" id="64">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Удаление версий по расписанию</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="УдалениеВерсийПоРасписаниюРасширеннаяПодсказка" id="65"/>
+				<ChildItems>
+					<UsualGroup name="НастройкиУдаления" id="79">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки удаления</v8:content>
+							</v8:item>
+						</Title>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="НастройкиУдаленияРасширеннаяПодсказка" id="80"/>
+						<ChildItems>
+							<CheckBoxField name="АвтоматическиУдалятьУстаревшиеВерсии" id="66">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="АвтоматическиУдалятьУстаревшиеВерсииКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="АвтоматическиУдалятьУстаревшиеВерсииРасширеннаяПодсказка" id="68"/>
+							</CheckBoxField>
+							<Button name="НастроитьРасписание" id="81">
+								<Type>Hyperlink</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="НастроитьРасписаниеРасширеннаяПодсказка" id="82"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<LabelDecoration name="Расписание" id="74">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>каждый  день, по дням недели [вторник, среда, четверг, пятница, суббота ]; с 3:00:00 один раз в день, завершать после 7:00:00</v8:content>
+							</v8:item>
+						</Title>
+						<VerticalAlign>Top</VerticalAlign>
+						<ContextMenu name="РасписаниеКонтекстноеМеню" id="75"/>
+						<ExtendedTooltip name="РасписаниеРасширеннаяПодсказка" id="76"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

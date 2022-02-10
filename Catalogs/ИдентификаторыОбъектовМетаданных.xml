@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="0ed49cda-7dbe-495e-a9d9-1c26b8c61a30">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИдентификаторыОбъектовМетаданных" category="Object">
+				<xr:TypeId>6fad1e27-19f4-4d94-84ba-f8e97fa3a4f7</xr:TypeId>
+				<xr:ValueId>c48ac329-a2c3-4232-ba7b-d61ef66e0e57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИдентификаторыОбъектовМетаданных" category="Ref">
+				<xr:TypeId>fc0f7ebd-4b1f-409b-9c87-6c95c948b487</xr:TypeId>
+				<xr:ValueId>02c9ff00-7522-450a-8fda-5e11c3ea0bcf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИдентификаторыОбъектовМетаданных" category="Selection">
+				<xr:TypeId>741b7450-7216-4121-a7f8-1a2d609bec51</xr:TypeId>
+				<xr:ValueId>f3b8aefa-b7ed-4317-bf7e-4aa1e17a6794</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИдентификаторыОбъектовМетаданных" category="List">
+				<xr:TypeId>1e882a5f-f1b6-414b-bd97-f771844e61f4</xr:TypeId>
+				<xr:ValueId>4064bff3-09f4-4dcc-b1c8-b8165c5d0ab1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИдентификаторыОбъектовМетаданных" category="Manager">
+				<xr:TypeId>6320f260-18fa-40e5-aa55-ad9c463b7cd4</xr:TypeId>
+				<xr:ValueId>f056ddb9-d7a3-4769-b111-aa37f4493b0e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИдентификаторыОбъектовМетаданных</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="98cbdd37-0950-4cda-afa9-d37a519e8b03">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПолноеИмя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>430</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
