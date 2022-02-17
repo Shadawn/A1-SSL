@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2022-02-10</Version>
+			<Version>2022-02-15</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -66,6 +66,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>А1БСП_А1СписокМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ВнешниеОбработки</CommonModule>
 			<CommonModule>А1БСП_ДополнительныеРеквизиты</CommonModule>
@@ -75,12 +76,14 @@
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизит</CommonModule>
 			<CommonModule>А1БСП_КомпонентДополнительныйРеквизитПоля</CommonModule>
 			<CommonModule>А1БСП_КонтактнаяИнформация</CommonModule>
+			<CommonModule>А1БСП_НаборыДополнительныхРеквизитовИСведений</CommonModule>
 			<CommonModule>А1БСП_Общее</CommonModule>
 			<CommonModule>А1БСП_ОбъектыБезМеханизмов</CommonModule>
 			<CommonModule>А1БСП_ПодключаемыеКоманды</CommonModule>
 			<CommonModule>А1БСП_Пользователи</CommonModule>
 			<CommonModule>А1БСП_Файлы</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
+			<CommonModule>ВерсионированиеОбъектов</CommonModule>
 			<CommonModule>КлиентЛицензированияГлобальный</CommonModule>
 			<CommonModule>МониторПортала1СИТСГлобальный</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
@@ -88,15 +91,14 @@
 			<CommonModule>ПользователиСлужебныйКлиент</CommonModule>
 			<CommonModule>РезервноеКопированиеИБКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
-			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
+			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>УправлениеСвойствами</CommonModule>
 			<CommonModule>УправлениеСвойствамиКлиент</CommonModule>
 			<CommonModule>УправлениеСвойствамиСлужебный</CommonModule>
-			<CommonModule>ВерсионированиеОбъектов</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьДополнительныеРеквизитыИСведения</FunctionalOption>
 			<Constant>ИспользоватьДополнительныеРеквизитыИСведения</Constant>
